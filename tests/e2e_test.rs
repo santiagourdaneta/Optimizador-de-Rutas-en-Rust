@@ -5,8 +5,7 @@ use std::process::Command;
 #[test]
 fn test_successful_run() -> Result<(), Box<dyn std::error::Error>> {
     let mut cmd = Command::cargo_bin("optimizador-de-rutas")?;
-    
-    // Pass the coordinates as positional arguments, not with flags
+
     cmd.arg("-12.11797,-76.98541")
        .arg("-12.10000,-76.99000");
 

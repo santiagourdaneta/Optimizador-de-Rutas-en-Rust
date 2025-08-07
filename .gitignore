@@ -1,1 +1,24 @@
-/target
+# Crate-specific files
+target/
+
+# Rust-specific files
+**/*.rs.bk
+
+# Operating system files
+.DS_Store
+.vscode
+.idea
+*.suo
+*.sln
+*.user
+
+# Build artifacts
+*.o
+*.a
+*.lib
+*.so
+*.dll
+*.exe
+
+# Git history
+.git/
